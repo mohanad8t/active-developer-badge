@@ -25,7 +25,7 @@ npm install
 {
   "token": "YOUR_BOT_TOKEN",
   "clientId": "YOUR_CLIENT_ID",
-  "guildId": "YOUR_TEST_SERVER_ID"
+  "guildId": "YOUR_SERVER_ID"
 }
 ```
 
