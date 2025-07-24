@@ -39,7 +39,7 @@ npm run deploy
 npm start
 ```
 
-## 📬 Use the Command
+### 📬 Use the Command
 
 In your server, type:
 
