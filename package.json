@@ -1,0 +1,17 @@
+{
+  "name": "active-developer-badge-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to help you get the Discord Active Developer Badge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
