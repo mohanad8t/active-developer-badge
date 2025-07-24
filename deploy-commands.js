@@ -1,10 +1,10 @@
 import { REST, Routes } from 'discord.js';
+import fs from 'fs';
 import { readdirSync } from 'fs';
-import { config } from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import configJson from './config.json' assert { type: 'json' };
 
+const configJson = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
