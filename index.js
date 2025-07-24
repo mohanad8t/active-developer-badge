@@ -1,9 +1,10 @@
 import { Client, Collection, GatewayIntentBits, Events } from 'discord.js';
+import fs from 'fs';
 import { readdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import config from './config.json' assert { type: 'json' };
 
+const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -20,6 +21,7 @@ for (const file of commandFiles) {
 
 client.once(Events.ClientReady, () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
+  client.user.setActivity('mohanad.cc', { type: 3 });
 });
 
 client.on(Events.InteractionCreate, async interaction => {
