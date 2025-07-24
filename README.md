@@ -9,18 +9,18 @@ A simple Discord bot using Discord.js v14 to help you get the **Active Developer
 
 ## 🛠️ Setup
 
-1. Clone the repo:
+### 1. Clone the repo:
 ```bash
 git clone https://github.com/your-username/active-dev-badge-bot
 cd active-dev-badge-bot
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Fill in `config.json`:
+### 3. Fill in `config.json`:
 ```json
 {
   "token": "YOUR_BOT_TOKEN",
@@ -29,12 +29,12 @@ npm install
 }
 ```
 
-4. Deploy the command:
+### 4. Deploy the command:
 ```bash
 npm run deploy
 ```
 
-5. Start the bot:
+### 5. Start the bot:
 ```bash
 npm start
 ```
