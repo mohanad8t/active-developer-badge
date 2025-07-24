@@ -11,8 +11,8 @@ A simple Discord bot using Discord.js v14 to help you get the **Active Developer
 
 ### 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/active-dev-badge-bot
-cd active-dev-badge-bot
+git clone https://github.com/mohanad8t/active-developer-badge
+cd active-developer-badge
 ```
 
 ### 2. Install dependencies:
